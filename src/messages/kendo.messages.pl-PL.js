@@ -273,7 +273,11 @@ $.extend(true, kendo.ui.FilterMenu.prototype.options.messages,{
 if (kendo.ui.FilterMultiCheck) {
 kendo.ui.FilterMultiCheck.prototype.options.messages =
 $.extend(true, kendo.ui.FilterMultiCheck.prototype.options.messages,{
-  "search": "Szukaj"
+  "search": "Szukaj",
+  "checkAll" : "Zaznacz wszystkie",
+  "clear" : "Wyczyść filtr",
+  "filter" : "Filtruj",
+  "selectedItemFormat" : "Wybrano {0} elementy" 
 });
 }
 
